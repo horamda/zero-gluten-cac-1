@@ -20,16 +20,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Yeseva+One&display=swap" rel="stylesheet">
 
     <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 
     <style>
         #map {
-            height: 400px;  
+         height: 400px; 
+          width: 100%;
+        max-width: 1180px; 
+        margin: auto; 
+        border-radius: 15px;
+        margin-bottom: 25px;
         }
     </style>
     
 </head>
-
+ <title>Restaurant</title>
 <body>
     <!-- barra de navegacion + marca -->
     <header>    
@@ -238,8 +243,9 @@
 <br>
 <br>
  <!-- Selector de Provincia -->
+ <div class="targetprovincias">
  <div class="mb-3">
-    <label for="provincia" class="form-label"><h3>Selecciona una provincia:</h3></label>
+    <h3><label for="provincia" class="form-label">Selecciona una provincia:</label></h3>
     <select class="form-select" id="provincia">
         <option value="">Todas las provincias</option>
         <option value="buenosaires">Buenos Aires</option>
@@ -267,7 +273,7 @@
         <option value="tucuman">Tucumán</option>
     </select>
 </div>
-
+</div>
 
         <!-- Mapa interactivo -->
         <div id="map"></div>
