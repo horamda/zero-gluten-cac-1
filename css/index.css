@@ -400,3 +400,8 @@ body{
 .img-vb, .img-hel, .img-notc{
     max-width: 60%
 }
+.img-slide {
+    width: auto; /* Ajusta a 100% del contenedor padre, o usa un porcentaje específico según el diseño */
+    height:auto; /* Mantiene la proporción de la imagen */
+
+}
