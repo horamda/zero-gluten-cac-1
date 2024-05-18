@@ -59,7 +59,7 @@
     display: block;
     position: absolute;
     height: 3px;
-    width: 100%;
+    width: 98%;
     background-color: rgb(255, 240, 210);
     color: rgb(255, 240, 210);
     border-radius: 1px;
@@ -216,8 +216,8 @@
 /* Estilos del formulario de contacto */
 .background {
     background-color: rgb(40, 69, 35);
-    border-bottom: 45px solid rgb(40, 69, 35);
-    
+    border-bottom: 25px solid rgb(40, 69, 35);
+   align-items: center;
 }
 
 .title-form {
@@ -271,7 +271,7 @@
 .contact-box input[type="email"],
 .contact-box textarea,
 .contact-box select {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid rgba(22, 33, 20, 0.5);
     border-radius: 5px;
@@ -319,7 +319,7 @@
 }
 
 .form-control, .form-select {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid rgb(221, 221, 221);
@@ -350,7 +350,7 @@
     cursor: pointer;
     border-radius: 40px;
     display: block;
-    width: 100%;
+    width: 98%;
     max-width: 200px;
     margin: 20px auto 0;
 }
@@ -364,11 +364,13 @@ textarea.form-control {
     resize: vertical;
 }
 
+
 /* Estilos responsivos */
 @media (max-width: 768px) {
     .intro {
         flex-direction: column;
         align-items: center;
+        width:100%;
     }
 
     .intro-box {
